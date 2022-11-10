@@ -21,4 +21,4 @@ PANDA_HOME=${PANDA_HOME:-$(cd $BIN_DIR/..; pwd)}
 
 JAVA_OPTS=${JAVA_OPTS:-"-server -Duser.timezone=${SPRING_JACKSON_TIME_ZONE} -Xmx1g -XX:+PrintGCDetails -Xloggc:gc.log -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=dump.hprof"}
 
-java $JAVA_OPTS -cp "$PANDA_HOME/libs/*" com.he3cloud.panda.service.server.DataStackAppBootstrap
+java $JAVA_OPTS -cp "$PANDA_HOME/libs/*" com.he3cloud.panda.service.server.PandaAppBootstrap

@@ -25,12 +25,12 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @EnableScheduling
 @SpringBootApplication(scanBasePackages = {"com.he3cloud.panda.service.server"})
-public class DataStackAppBootstrap {
+public class PandaAppBootstrap {
 
-    private static final Logger LOG = LoggerFactory.getLogger(DataStackAppBootstrap.class);
+    private static final Logger LOG = LoggerFactory.getLogger(PandaAppBootstrap.class);
 
     public static void main(String[] args) {
-        SpringApplication.run(DataStackAppBootstrap.class, args);
+        SpringApplication.run(PandaAppBootstrap.class, args);
     }
 
 }
