@@ -1,0 +1,7 @@
+${AnsiColor.BLUE}${AnsiStyle.BOLD}
+================================================================================
+Panda
+================================================================================
+${AnsiColor.BLUE}${AnsiStyle.BOLD}
+::  Panda server ::  ${application.formatted-version}
+${AnsiStyle.NORMAL}
